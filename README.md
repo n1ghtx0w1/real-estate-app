@@ -25,3 +25,6 @@ I made this application to learn python, django, and to aggregate news stories i
 - Migrate with `python3 manage.py migrate` 
 - Run server with `python3 manage.py runserver`
 
+Django version 4.2.2, using settings 'real_estate_app.settings'
+Starting development server at http://127.0.0.1:8000/
+
