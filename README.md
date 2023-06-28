@@ -18,7 +18,7 @@
 
 I made this application to learn python, django, and to aggregate news stories into an app.  
 
-Make migrations `python3 manage.py makemigrations` or your version of python
-Migrate with `python3 manage.py migrate` or your version of python
-Run server with `python3 manage.py runserver` or your version of python
+- Make migrations `python3 manage.py makemigrations` or your version of python
+- Migrate with `python3 manage.py migrate` or your version of python
+- Run server with `python3 manage.py runserver` or your version of python
 
