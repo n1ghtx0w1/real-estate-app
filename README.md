@@ -12,7 +12,7 @@
 
 ### Contact section for illiciting customer contact
 
-![Contact](https://raw.githubusercontent.com/n1ghtx0w1/real-estate-app/main/assets/real-estate-3.JPG)
+![Contact](https://raw.githubusercontent.com/n1ghtx0w1/real-estate-app/main/assets/contact-section.png)
 
 *Contact section or section to advertise*
 
