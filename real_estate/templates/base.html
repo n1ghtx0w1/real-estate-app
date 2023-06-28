@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Real Estate Web App</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/script.js' %}"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <div class="navbar-brand">
+            Real Estate App
+        </div>
+        <ul class="navbar-links-container">
+            <ul class="navbar-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </ul>
+    </nav>
+
+<!-- Parallax section -->
+<section class="parallax-section">
+    <div class="parallax-image"></div>
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content">
+      <!-- Main Title -->
+      <div class="container">
+        <h2 class="main-title">Real Estate App</h2>
+      </div>
+      <p class="subtitle">Find your dream home today</p>
+      <!-- Social Media Icons -->
+      <div class="social-icons">
+        <a href="#" class="icon twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" class="icon instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="icon linkedin"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+  
+
+    <!-- News section -->
+    <section id="news">
+        <h2 class="news-section-title">Latest News Stories</h2>
+        {% for news_item in news_items %}
+        <div class="news-item">
+          <h3>{{ news_item.title }}</h3>
+          <p>{{ news_item.description }}</p>
+          <a href="{{ news_item.url }}" target="_blank">Read</a>
+        </div>
+        {% endfor %}
+    </section>
+    
+    
+    <section id="contact">
+        <h2>Work with us</h2>
+        <div class="contact-container">
+          <div class="contact-column">
+            <div class="card">
+              <img src="{% static 'images/home2.jpg' %}" alt="Image 1">
+              <div class="card-text">
+                <h3>Image 1</h3>
+                <p>Description of Image 1</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-column">
+            <div class="card">
+              <img src="{% static 'images/home3.jpg' %}" alt="Image 2">
+              <div class="card-text">
+                <h3>Image 2</h3>
+                <p>Description of Image 2</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-column">
+            <div class="card">
+              <img src="{% static 'images/home4.jpg' %}" alt="Image 3">
+              <div class="card-text">
+                <h3>Image 3</h3>
+                <p>Description of Image 3</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+
+    <!-- Footer section -->
+    <footer>
+        <!-- Add your footer code here -->
+        <p>&copy; 2023 Your Real Estate Agency</p>
+    </footer>
+</body>
+</html>
