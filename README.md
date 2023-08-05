@@ -10,7 +10,7 @@
 
 ![News](https://raw.githubusercontent.com/n1ghtx0w1/real-estate-app/main/assets/real-estate-2.JPG)
 
-### Contact section for illiciting customer contact
+### Contact section for soliciting customer contact
 
 ![Contact](https://raw.githubusercontent.com/n1ghtx0w1/real-estate-app/main/assets/contact-section.png)
 
